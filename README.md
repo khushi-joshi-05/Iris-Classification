@@ -103,20 +103,8 @@ To use the pre-trained Random Forest model:
 
 ---
 
-### Summary Table of Results
 
-| Model           | Accuracy | Precision | Recall | F1-Score |
-|-----------------|----------|-----------|--------|----------|
-| Random Forest   | 1.000    | 1.000     | 1.000  | 1.000    |
-| Decision Tree   | 1.000    | 1.000     | 1.000  | 1.000    |
-| SVM             | 0.967    | 0.969     | 0.967  | 0.966    |
-| k-NN            | 1.000    | 1.000     | 1.000  | 1.000    |
-| Stacked Model   | 1.000    | 1.000     | 1.000  | 1.000    |
-
----
 
 ### Conclusion
 
 This report showcases the successful application of multiple classification models on the Iris dataset, with high precision, recall, and F1-scores. The Random Forest model proved to be especially effective, indicating its suitability for similar classification tasks. This pipeline, which includes data preprocessing, model training, evaluation, hyperparameter tuning, and validation, presents a reliable approach to classification for structured datasets like Iris.
-```
-
