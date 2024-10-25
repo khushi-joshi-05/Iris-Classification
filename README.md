@@ -5,7 +5,7 @@ This project demonstrates the classification of Iris flowers into three species 
 
 ## Dataset
 
-The Iris dataset consists of 150 samples of Iris flowers, each with four features: sepal length, sepal width, petal length, and petal width. The dataset is commonly used for classification tasks.
+The Iris dataset consists of 150 samples of Iris flowers, each with four features: sepal length, sepal width, petal length, and petal width(all in cm). The dataset is commonly used for classification tasks.
 
 ## Project Workflow
 
@@ -18,18 +18,6 @@ The project follows these steps:
 5. **Hyperparameter Tuning:** Use GridSearchCV to find the best hyperparameter settings for each model.
 6. **Model Comparison and Selection:** Compare model performance and select the best-performing model based on evaluation metrics.
 7. **Cross-Validation:** Apply cross-validation to assess the generalization performance of the selected model for more robust accuracy on unseen data.
-
-## Results
-
-The following table summarizes the performance of the classification models trained on the Iris dataset, along with their best hyperparameters:
-
-| Model           | Accuracy | Precision | Recall | F1-Score | Best Hyperparameters                                         |
-|-----------------|----------|-----------|--------|----------|----------------------------------------------------------------|
-| Random Forest   | 1.000    | 1.000     | 1.000  | 1.000    | `{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}` |
-| Decision Tree   | 1.000    | 1.000     | 1.000  | 1.000    | `{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}` |
-| SVM             | 0.967    | 0.969     | 0.967  | 0.966    | `{'C': 10, 'kernel': 'linear'}`                                  |
-| k-NN            | 1.000    | 1.000     | 1.000  | 1.000    | `{'n_neighbors': 9, 'weights': 'distance'}`                      |
-| Stacked Model   | 1.000    | 1.000     | 1.000  | 1.000    | `{'final_estimator__C': 0.1}`                                    |
 
 ## Usage
 
@@ -102,6 +90,17 @@ To use the pre-trained Random Forest model:
 - **Future Directions**: Suggestions include further feature engineering or testing other model architectures.
 
 ---
+## Results
+
+The following table summarizes the performance of the classification models trained on the Iris dataset, along with their best hyperparameters:
+
+| Model           | Accuracy | Precision | Recall | F1-Score | Best Hyperparameters                                         |
+|-----------------|----------|-----------|--------|----------|----------------------------------------------------------------|
+| Random Forest   | 1.000    | 1.000     | 1.000  | 1.000    | `{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}` |
+| Decision Tree   | 1.000    | 1.000     | 1.000  | 1.000    | `{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}` |
+| SVM             | 0.967    | 0.969     | 0.967  | 0.966    | `{'C': 10, 'kernel': 'linear'}`                                  |
+| k-NN            | 1.000    | 1.000     | 1.000  | 1.000    | `{'n_neighbors': 9, 'weights': 'distance'}`                      |
+| Stacked Model   | 1.000    | 1.000     | 1.000  | 1.000    | `{'final_estimator__C': 0.1}`                                    |
 
 
 
