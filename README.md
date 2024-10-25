@@ -1,8 +1,4 @@
-Certainly! Here’s the README content formatted for copy-pasting:
 
----
-
-```markdown
 # Iris Flower Classification
 
 This project demonstrates the classification of Iris flowers into three species (Setosa, Versicolor, and Virginica) using various machine learning models. The project utilizes the Iris dataset, a well-known resource for machine learning classification tasks.
@@ -60,9 +56,9 @@ To use the pre-trained Random Forest model:
    ```
    `predictions` will contain the predicted species labels (0, 1, or 2) corresponding to the input data. You can map these labels back to the species names (Setosa, Versicolor, Virginica) if needed.
 
----
 
-### Comprehensive Report on Iris Dataset Classification Analysis
+
+###  Report on Iris Dataset Classification Analysis
 
 ---
 
